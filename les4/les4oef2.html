@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="registreren.php" method="get">
+        <div>
+            <label for="Voornaam">Voornaam:
+                <input type="text" name="Voornaam" id="Voornaam">
+            </label>
+        </div>
+
+        <div>
+            <label for="Familienaam">Familienaam:
+                <input type="text" name="Familienaam" id="Familienaam">
+            </label><br>
+        </div>
+
+        <div>
+            <label for="gebruikersnaam">Gebruikersnaam:
+                <input type="text" name="gebruikersnaam" id="gebruikersnaam" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="Nickname">Nickname:
+                <input type="number" name="Nickname" id="Nickname" min="5" max="15">
+            </label>
+        </div>
+
+        <div>
+            <label for="password">Paswoord:
+                <input type="password" name="paswoord" value="password" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="password2">herhaal paswoord:
+                <input type="password" name="paswoord2" value="password" required>
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" value="Registreten">
+        </div>
+    </form>
+    
+</body>
+</html>
