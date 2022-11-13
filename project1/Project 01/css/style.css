@@ -1,0 +1,29 @@
+/* keuze menu voor links */
+#div-list-links {
+    column-count: 6;
+}
+
+#ol-list-link li {
+    list-style: none;
+    text-align: center;
+}
+
+/* body kleur aanpassen  */
+body{
+    background-color: rgb(86, 85, 85);
+}
+/* H1 kleur aanpassen */
+h1 {
+   color: darkgoldenrod;
+}
+
+/* H3 kleur aanpassen */
+h3{
+    color: rgb(241, 244, 247);
+}
+
+/* p kleur aanpassen */
+p,ol,ul,table{
+    color: rgb(241, 244, 247);
+}
+
