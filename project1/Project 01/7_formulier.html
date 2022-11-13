@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>2_cv</title>
+    <title>7_formulier</title>
 </head>
 <body>
     <header>
@@ -18,29 +19,33 @@
                 <a  id="btn" href="6_contact.html">Contact</a>
         </div>
     </header>
-   
-   
-    <h1>Curriculum Vitae</h1>
-    
-    
 
-    <h3>Talen</h3>
-    <ul>
-        <li>Nederlands: moedertaal</li>
-        <li>Engels: goed</li>
-    </ul>
-<h3>Opleiding achtergrond</h3>
-<ul>
-    <li>initiator diploma</li>
-    <li>instructeur b </li>
-    <li>vca diploma <br>
-    Basis Elements of Safety SCC</li> 
-    <li>Paardenhumaniora, Bilzen - diploma <br>
-    SEPTEMBER 2013 - JUNI 2019 <br>
-    7de jaar succesvol afgerond. Tijdens deze opleiding kreeg ik ook les van dierenartsen en hoefsmeden;<br>
-    waar ik veel kennis van opgedaan heb.
-    </li>   
-</ul>
+    <form action="7_formulier.html">
+        <h1>Contact formulier</h1>
+        <div>
+            <label for="naam">Naam</label>
+            <input type="text" id="naam">
+        </div>
 
+        <div>
+            <label for="mail">Mail</label>
+            <input type="text" id="mail">
+        </div>
+
+        <div>
+            <label for="onderwerp">Onderwerp</label>
+            <input type="text" id="onderwerp">
+        </div>
+
+        <div>
+            <label for="tekst">Vragen</label>
+            <textarea id="tekst" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Send">
+        </div>
+    </form>
 </body>
+
 </html>
