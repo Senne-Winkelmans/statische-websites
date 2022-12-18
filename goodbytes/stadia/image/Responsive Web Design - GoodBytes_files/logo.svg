@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>courses-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="courses.goodbytes.be" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="courses.goodbytes.be-HOMEPAGE" transform="translate(-28.000000, -20.000000)">
+            <g id="courses-logo" transform="translate(28.000000, 20.000000)">
+                <g id="logo">
+                    <rect id="Rectangle-4" fill="#8B12F6" x="20.4000008" y="0" width="20.4000008" height="20.4000008"></rect>
+                    <rect id="Rectangle-4" fill="#3B1CFF" x="20.4000008" y="20.4000008" width="20.4000008" height="20.4000008" rx="3.90000015"></rect>
+                    <polygon id="Rectangle-4" fill="#F92698" points="20.4000008 0 20.4000008 20.4000008 0 20.4000008"></polygon>
+                    <polygon id="Triangle-2" fill="#FCFD38" transform="translate(10.200000, 30.600001) rotate(-180.000000) translate(-10.200000, -30.600001) " points="0 30.6000012 20.4000008 20.4000008 20.4000008 40.8000016"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

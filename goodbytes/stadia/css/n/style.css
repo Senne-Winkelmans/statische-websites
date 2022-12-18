@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 150%;
+}
+
+#header{
+    background-color:#202124;
+    color: gray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image:url("../../image/images.jfif");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    padding-bottom: 190px;
+}
+#header h1{
+    color: white;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.btn{
+    background-color: #ed2f47;
+    display: block;
+    padding: 15px 40px ;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+.btn:hover{
+     /* text-decoration: underline; */
+            background-color: red; 
+            transform: scale(1.1);
+}
+.btn:active{ 
+    transform: scale(1);
+}
+
+#games{
+    text-align: center;s
+}
+#gamecovers{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:center;
+}
+
+#gamecovers div {
+flex: 45% 0 0;
+padding: 2.5;
+}
+#gamecovers img{
+max-width: 100%;
+border-radius: 5px;
+}
+

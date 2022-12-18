@@ -1,0 +1,10 @@
+
+body {
+  background-color: darkblue;
+}
+div{
+    width: 300;
+    box-sizing: border-box;
+    margin: auto;
+    border: 15px;px
+  }

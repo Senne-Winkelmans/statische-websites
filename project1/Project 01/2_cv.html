@@ -1,46 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>2_cv</title>
-</head>
-<body>
-    <header>
-        <div class="flex">  
-                <a id="btn" href="1_index.html">Home</a>
-                <a id="btn" href="2_cv.html">Cv</a>
-                <a id="btn" href="3_ervaring.html">Ervaring</a>
-                <a id="btn" href="4_modelvoorbeelden.html">Modelvoorbeelden</a>
-                <a id="btn" href="5_hobby.html">Hobby </a>
-                <a  id="btn" href="6_contact.html">Contact</a>
-        </div>
-    </header>
-   
-   
-    <h1>Curriculum Vitae</h1>
-    
-    
 
-    <h3>Talen</h3>
-    <ul>
-        <li>Nederlands: moedertaal</li>
-        <li>Engels: goed</li>
-    </ul>
-<h3>Opleiding achtergrond</h3>
-<ul>
-    <li>initiator diploma</li>
-    <li>instructeur b </li>
-    <li>vca diploma <br>
-    Basis Elements of Safety SCC</li> 
-    <li>Paardenhumaniora, Bilzen - diploma <br>
-    SEPTEMBER 2013 - JUNI 2019 <br>
-    7de jaar succesvol afgerond. Tijdens deze opleiding kreeg ik ook les van dierenartsen en hoefsmeden;<br>
-    waar ik veel kennis van opgedaan heb.
-    </li>   
-</ul>
+<head>
+    <title>portfolio website Senne Winkelmans</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- owl -->
+    <link rel="stylesheet"
+        href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+    <!-- =============================nav bar ==================================================-->
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" style="padding: 15px;" href="index.html">Senne Winkelmans</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="2_cv.html">Curriculum Vitae</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="4_modelvoorbeelden.html">Modelvoorbeelden</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="5_hobby.html">Hobby</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="6_contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="7_formulier.html">Contact formulier</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================== jumbotron ===============================================-->
+
+    <div class="jumbotron text-centerp-5 bg-secondary text-white text-center" style="padding: 60px ;">
+        <h1>Curriculum Vitae</h1>
+        <p>Wie ben ik, wat doe ik en wat ken ik </p>
+    </div>
+<!-- ===================================== main ============================================= -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Talen</h3>
+                <ul>
+                    <li>Nederlands: moedertaal</li>
+                    <li>Engels: goed</li>
+                    <li>Frans: beperkt</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Kernvaardigheden</h3>
+                <ul>
+                    <li>Sociaal</li>
+                    <li>Team player maar ook zeer zelfstandig</li>
+                    <li>Gedreven</li>
+                    <li>Sterk aanpassingsvermogen</li>
+                    <li>Leergierig</li>
+                    <li>Positief</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Opleidingsachtergrond</h3>
+                <ul>
+                    <li>Initiator diploma</li>
+                    <li>Instructeur b </li>
+                    <li>VCA diploma <br>
+                        Basis Elements of Safety SCC</li>
+                    <li>Paardenhumaniora, Bilzen - diploma <br>
+                        SEPTEMBER 2013 - JUNI 2019 <br>
+                        7de jaar succesvol afgerond. Tijdens deze opleiding kreeg ik ook les van dierenartsen en
+                        hoefsmeden;<br> waar ik veel kennis van opgedaan heb.
+                    </li>
+                    <li>Ervaring met onderstaande programma's</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--===========================================  caroesel owl ============================= -->
+
+    <div class="large-12 columns" style="padding: 10px;">
+        <div class="owl-carousel owl-theme" style="padding: 10px;">
+            <div class="item">
+                <img src="img/img carousel cv/C.png" alt="C#"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/CSS.png" alt="CSS"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/html 5.png" alt="HTML 5"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/word.png" alt="Word"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/excel.png" alt="excel"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/bootstrap.png" alt="bootstrap"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/powerpoint.png" alt="powerpoint"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/visual strudio.png" alt="visual strudio"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+            <div class="item">
+                <img src="img/img carousel cv/visual studio code.png" alt="visual strudio code"
+                    style="display:block; margin:auto; object-fit: contain; height: 200px;">
+            </div>
+        </div>
+    </div>
+
+    <!--=================================== werk ervaringen ===============================================-->
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1>Werkervaring</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Professionele springruiter</h3>
+                <ul>
+                    <li>Stoeterij AVS, Bouwel</li>
+                    <li>Thor Stabels, Zutendaal</li>
+                    <li>Stal Bergmans, Doenrade</li>
+                    <li>Het opleren, voorstellen en trainen van jonge springpaarden.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Natra, Malle</h3>
+                <ul>
+                    <li>Operator in de voedingsindustrie</li>
+                    <li>Interim-job aangenomen omwille van overtal wegens COVID-19 bij voorgaande werkgever.</li>
+                    <li>Visuele controle bij de machines: Voorradig houden/ bijvullen van de machines.</li>
+                    <li>Technische storingen oplossen of doorgeven.</li>
+                    <li>Bij wisseling van product mee de productielijn helpen ombouwen.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>G.Smeyers</h3>
+                <ul>
+                    <li>Firma gespecialiseerd in bronbemalings technieken</li>
+                    <li>Hier ben ik werkzaam als werftechnieker</li>
+                    <li>Technische storingen oplossen</li>
+                    <li>Algemene controles van de installaties </li>
+                    <li>Online monitoring</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--===================================== line ===============================================-->
+    <hr class="solid" style="border-top: 5px solid #bbb;">
+
+    <!-- ===================================== Card ============================================= -->
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-4 text-center" style="margin-bottom: 15px;">
+                <a href="2_cv.html"><img class="card-img-top" src="img/img card/senne.jpg" alt="Senne Winkelmans"></a>
+                <div class="card-body">
+                    <h4 class="card-title">Wie ben ik</h4>
+                    <br>
+                    <a href="2_cv.html" class="btn btn-primary">Klik hier</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center" style="margin-bottom: 15px;">
+                <a href="4_modelvoorbeelden.html"><img class="card-img-top" src="../img/fotoModelvoorbeeld.webp"
+                        alt="Modelvoorbeelden"></a>
+                <div class="card-body">
+                    <h4 class="card-title">Modelvoorbeelden</h4>
+                    <br>
+                    <a href="4_modelvoorbeelden.html" class="btn btn-primary">Klik hier</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center" style="margin-bottom: 15px;">
+                <a href="5_hobby.html"><img class="card-img-top" src="img/img card/paard.jpg"
+                        alt="hobby/interesses"></a>
+                <div class="card-body">
+                    <h4 class="card-title">Hobby/interesses</h4>
+                    <br>
+                    <a href="5_hobby.html" class="btn btn-primary">Klik hier</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ================================ footer ==================================================-->
+    <footer class="container-fluid bg-secondary">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.facebook.com/">
+                    <img src="img/facebook.png" alt="facebook" height="40">
+                </a>
+
+                <a href="https://be.linkedin.com/">
+                    <img src="img/LinkedIn.png" alt="linkedin" height="40" style="margin: 15px;">
+                </a>
+            </div>
+
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <a href="6_contact.html"> <button type="button" class="btn btn-light">Contact</button></a>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center flex-row-reverse text-white ">
+                &copy; Senne Winkelmans
+            </div>
+
+            <div class="col-md-1">
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+
+    <!-- owl -->
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 
 </body>
+
 </html>

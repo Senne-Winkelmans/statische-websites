@@ -1,4 +1,4 @@
-/* keuze menu voor links */
+/* keuze menu voor links
 
 
 .flex a {
@@ -12,22 +12,34 @@
     color: darkgoldenrod;
 }
 
-/* body kleur aanpassen  */
+body kleur aanpassen  
 body{
     background-color: rgb(86, 85, 85);
 }
-/* H1 kleur aanpassen */
+ H1 kleur aanpassen kelmans
 h1 {
    color: darkgoldenrod;
 }
 
-/* H3 kleur aanpassen */
+/* H3 kleur aanpassen 
 h3{
     color: rgb(241, 244, 247);
 }
 
-/* p kleur aanpassen */
+ p kleur aanpassen 
 p,ol,ul,table,label{
     color: rgb(241, 244, 247);
 }
+
+#Flogo {
+    background-color: aliceblue;
+    width: 45px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+#Ilogo {
+    width: 45px;
+    margin: 5px;
+} */
 
