@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://tm-statweb/forms.php" method="get">
+        <div>
+            <label for="Voornaam">Voornaam: 
+                <input type="text" name="Voornaam" id="Voornaam"  value="stijn">
+            </label>
+        </div>
+
+        <div>
+            <label for="Familienaam">Familienaam:
+                <input type="text" name="Familienaam" id="Familienaam"  value="lenaerts">
+            </label><br>
+        </div>
+
+        <div>
+            <label for="gebruikersnaam">Gebruikersnaam:
+                <input type="text" name="gebruikersnaam" id="gebruikersnaam"  value="mail@thomasmore.be" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="Nickname">Nickname:
+                <input type="text" name="Nickname" id="Nickname" minlength="5" maxlength="15">
+            </label>
+        </div>
+
+        <div>
+            <label for="password">Password:
+                <input type="password" name="password" value="password" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="password2">herhaal password:
+                <input type="password" name="password2" value="password" required>
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+    
+</body>
+</html>
